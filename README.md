@@ -111,7 +111,10 @@ Texto visible
 <!-- 
 "!"Comentario multilínea
 Puede abarcar varias líneas
--->
+-->  
+
+[//]: # "TODO: Agregar sección de ejemplos"
+[//]: # "FIXME: Revisar este enlace"
 
 # GUÍA  GIT & MARKDOWN
 
