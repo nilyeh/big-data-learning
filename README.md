@@ -93,13 +93,15 @@ git push origin main
 Opción A: Markdown (recomendado)  
 ![Estructura inicial](docs/imagenes/estructura1.jpg) 
 
-Nota: la imagen se inserta directo en el Readme.md, Usa rutas relativas (desde la raíz del repositorio), no absolutas  
+Nota: la imagen se inserta directo en el Readme.md.  
+Usa rutas relativas (desde la raíz del repositorio), no absolutas  
 En este ejemplo de inserción de imagen, no se incluye la carpeta docs que contiene las imagenes**  
 codigo:    
 
 <!-- 
 "![Texto alternativo](ruta/a/la/imagen.png)"
 -->  
+[/"![Texto alternativo](ruta/a/la/imagen.png)"/]: # "TODO: Agregar diagrama de arquitectura"
 
 [//]: # (Este es un comentario en GitHub)
 [comment]: <> (Esta es otra variante)  
