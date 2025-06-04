@@ -63,30 +63,7 @@ Hadoop (HDFS + MapReduce + YARN) → 2. Spark → 3. Kafka (streaming) → 4. Ai
 
 Nota clave: El conocimiento de Hadoop y Spark es fundamental para entrevistas y entender tecnologías modernas.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# GIT HUB REPOSITORO---Documentación  
 ( Ejemplo del inicio y creación de estructura de carpetas)
 Paso 1.  
 Crear en github.com/new.  
