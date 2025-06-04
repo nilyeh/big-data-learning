@@ -95,10 +95,23 @@ Opción A: Markdown (recomendado)
 
 Nota: la imagen se inserta directo en el Readme.md, Usa rutas relativas (desde la raíz del repositorio), no absolutas  
 En este ejemplo de inserción de imagen, no se incluye la carpeta docs que contiene las imagenes**  
-codigo:  
-["![Texto alternativo](ruta/a/la/imagen.png)"]
+codigo:    
+
+<!-- 
+"![Texto alternativo](ruta/a/la/imagen.png)"
+-->  
+
 [//]: # (Este es un comentario en GitHub)
-[comment]: <> (Esta es otra variante)
+[comment]: <> (Esta es otra variante)  
+
+Comentarios HTML (funciona en la mayoría de parsers)
+<!-- Este es un comentario invisible en el renderizado final -->
+Texto visible
+
+<!-- 
+"!"Comentario multilínea
+Puede abarcar varias líneas
+-->
 
 # GUÍA  GIT & MARKDOWN
 
