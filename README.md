@@ -101,7 +101,7 @@ codigo:
 <!-- 
 "![Texto alternativo](ruta/a/la/imagen.png)"
 -->  
-[/"![Texto alternativo](ruta/a/la/imagen.png)"/]: # "TODO: Agregar diagrama de arquitectura"
+[/ "![Texto alternativo](ruta/a/la/imagen.png)" /]:  
 
 [//]: # (Este es un comentario en GitHub)
 [comment]: <> (Esta es otra variante)  
