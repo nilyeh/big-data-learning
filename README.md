@@ -146,7 +146,14 @@ git push origin main
 ### Crear estructura con subdirectorios:
 mkdir -p {1-hadoop,2-spark,3-kafka,proyectos}/ejemplos  
 Explicación:
--p: Flag que permite crear múltiples directorios anidados de una vez.
+-p: Flag que permite crear múltiples directorios anidados de una vez.  
+Por ejemplo si se repite una carpeta y la queremos eliminar, supuesto se creo la carpeta repetida {3-kafka}:  
+
+git bash:
+rm -rf '{3-kafka}'  # Borra localmente
+git add -u  # Registra los cambios
+git commit -m "Elimina carpeta {3-kafka} manualmente"
+git push origin main
 
 ### Crear archivos base:
 touch README.md 1-hadoop/README.md 2-spark/README.md recursos.md  
