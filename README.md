@@ -1,4 +1,4 @@
-# big-data-learning
+# big-data-learning ( Ejemplo del inicio y creación de carperta)
 Paso 1.  
 Crear en github.com/new.  
 a) Nombre: big-data-learning (nombre de repositorio).  
@@ -19,7 +19,7 @@ código bash:
 mkdir -p {1-hadoop,2-spark,3-kafka,proyectos}/ejemplos  
 touch README.md 1-hadoop/README.md 2-spark/README.md recursos.md  
 $ mkdir -p docs/imagenes  # Crea la carpeta si no existe  
-git add docs/imagenes/mi-imagen.png # laimagen se llama estructura 1  
+git add docs/imagenes/mi-imagen.png # mi-imagen.png = estructura 1.jpg    
 git commit -m "Agregar imagen para README"  
 git push origin main  
 
@@ -28,3 +28,7 @@ Opción A: Markdown (recomendado)
 ![Estructura inicial](docs/imagenes/estructura1.jpg)  
 
 Nota: la imagen se inserta directo en el Readme.md, Usa rutas relativas (desde la raíz del repositorio), no absolutas  
+En este ejemplo de inserción de imagen, no se incluye la carpeta docs que contiene las imagenes**
+
+#comandos importantes
+
