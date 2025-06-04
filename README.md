@@ -152,7 +152,7 @@ Por ejemplo si se repite una carpeta y la queremos eliminar, supuesto se creo la
 git bash:  
 rm -rf '{3-kafka}'  # Borra localmente  
 git add -u  # Registra los cambios  
-git commit -m "Elimina carpeta {3-kafka} manualmente"
+git commit -m "Elimina carpeta {3-kafka} manualmente"  
 git push origin main  
 
 ### Crear archivos base:
