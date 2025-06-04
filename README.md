@@ -91,12 +91,12 @@ git push origin main
 
 3.2. Insertar la imagen en el README.md  
 Opción A: Markdown (recomendado)  
-![Estructura inicial](docs/imagenes/estructura1.jpg)  
+![Estructura inicial](docs/imagenes/estructura1.jpg) 
 
 Nota: la imagen se inserta directo en el Readme.md, Usa rutas relativas (desde la raíz del repositorio), no absolutas  
 En este ejemplo de inserción de imagen, no se incluye la carpeta docs que contiene las imagenes**  
 codigo:  
-![Texto alternativo](ruta/a/la/imagen.png)
+#"![Texto alternativo](ruta/a/la/imagen.png)"
 
 # GUÍA  GIT & MARKDOWN
 
