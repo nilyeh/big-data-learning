@@ -12,10 +12,12 @@ Lenguaje: Principalmente Java, pero soporta otros como Python o Scala.
 Componentes principales:
 HDFS (Hadoop Distributed File System):
 
-Sistema de archivos distribuido (almacena datos en múltiples servidores).
-
-Ejemplo en bash:
-hdfs dfs -ls /data  # Lista archivos en HDFS
+Sistema de archivos distribuido (almacena datos en múltiples servidores).  
+Ejemplo:  
+```bash
+# Lista archivos en HDFS
+hdfs dfs -ls /data  
+```  
 
 YARN (Yet Another Resource Negotiator):Gestiona recursos del cluster (CPU, memoria).  
 
@@ -24,8 +26,12 @@ MapReduce: Modelo de programación para procesar datos en paralelo.
 Librerías adicionales: HBase (base de datos NoSQL), Hive (consultas SQL), Spark (procesamiento en memoria).  
 
 En resumen:
-1. Almacenas datos en HDFS (bash): Almacenas datos en HDFS (bash):  
+1. Almacenas datos en HDFS:
+ ```bash
+# Almacenas datos en HDFS:
 hdfs dfs -put datos.csv /input
+```  
+ 
 2. Procesas con MapReduce/Spark.
 3. Resultados se guardan en HDFS o bases de datos.
 -----------------------------------------------------------
